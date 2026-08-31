@@ -76,20 +76,20 @@ The values estimated by the ad-hoc and RDD methods are very similar while the Di
 These numerical results and checks emphasize the suspicion that EU legislation can have significant impact on individuals outside the immediate jurisdiction. In the case of the GDPR, there are statistically significant and robust spillover effects improving data protection for individuals outside the EU accessing websites located outside the EU.
 
 **Third-party requests**
-Category | DiD (full range) | DiD (2018 Jan-Aug) | DiD (GDPR +/-70 days) | Ad-hoc | RDD     
-:---:|:---:|:---:|:---:|:---:|:---:
-<span style="color:firebrick">EU audience & EU location</span> | $-7.9\%$ | $-7.1\%$ | $-6.5\%$ | $-6.9\%$ | $-6.9\%$
-<span style="color:dodgerblue">non-EU audience & EU location</span> | $-4.6\%$ | $-3.8\%$ | $-3.0\%$ | $-3.9\%$ | $-3.9\%$
-<span style="color:goldenrod">EU audience & non-EU location</span> | $-5.1\%$ | $-3.6\%$ | $-3.6\%$ | $-3.2\%$ | $-3.3\%$
-<span style="color:darkgreen">non-EU audience & non-EU location</span> | $-2.2\%$ | $-1.3\%$ | $-1.2\%$ | $-1.3\%$ | $-1.1\%$
+|Category | DiD (full range) | DiD (2018 Jan-Aug) | DiD (GDPR +/-70 days) | Ad-hoc | RDD     |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|<span style="color:firebrick">EU audience & EU location</span> | $-7.9\%$ | $-7.1\%$ | $-6.5\%$ | $-6.9\%$ | $-6.9\%$|
+|<span style="color:dodgerblue">non-EU audience & EU location</span> | $-4.6\%$ | $-3.8\%$ | $-3.0\%$ | $-3.9\%$ | $-3.9\%$|
+|<span style="color:goldenrod">EU audience & non-EU location</span> | $-5.1\%$ | $-3.6\%$ | $-3.6\%$ | $-3.2\%$ | $-3.3\%$|
+|<span style="color:darkgreen">non-EU audience & non-EU location</span> | $-2.2\%$ | $-1.3\%$ | $-1.2\%$ | $-1.3\%$ | $-1.1\%$|
 
 **Third-party cookies**
-Category | DiD (full range) | DiD (2018 Jan-Aug) | DiD (GDPR +/-70 days) | Ad-hoc | RDD     
-:---:|:---:|:---:|:---:|:---:|:---:
-<span style="color:firebrick">EU audience & EU location</span> | $-13.3\%$ | $-13.6\%$ | $-10.7\%$ | $-11.4\%$ | $-10.8\%$
-<span style="color:dodgerblue">non-EU audience & EU location</span> | $-9.4\%$ | $-9.3\%$ | $-6.9\%$ | $-7.7\%$ | $-6.3\%$
-<span style="color:goldenrod">EU audience & non-EU location</span> | $-7.6\%$ | $-8.0\%$ | $-6.5\%$ | $-6.9\%$ | $-6.9\%$
-<span style="color:darkgreen">non-EU audience & non-EU location</span> | $-4.6\%$ | $-4.4\%$ | $-2.9\%$ | $-4.0\%$ | $-3.6\%$
+|Category | DiD (full range) | DiD (2018 Jan-Aug) | DiD (GDPR +/-70 days) | Ad-hoc | RDD     |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|<span style="color:firebrick">EU audience & EU location</span> | $-13.3\%$ | $-13.6\%$ | $-10.7\%$ | $-11.4\%$ | $-10.8\%$|
+|<span style="color:dodgerblue">non-EU audience & EU location</span> | $-9.4\%$ | $-9.3\%$ | $-6.9\%$ | $-7.7\%$ | $-6.3\%$|
+|<span style="color:goldenrod">EU audience & non-EU location</span> | $-7.6\%$ | $-8.0\%$ | $-6.5\%$ | $-6.9\%$ | $-6.9\%$|
+|<span style="color:darkgreen">non-EU audience & non-EU location</span> | $-4.6\%$ | $-4.4\%$ | $-2.9\%$ | $-4.0\%$ | $-3.6\%$|
 ## Reproducibility
 ```
 conda create -n gdpr314 python=3.14
