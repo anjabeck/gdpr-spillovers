@@ -1,0 +1,8 @@
+hist
+linearmodels
+matplotlib
+mplhep
+numpy
+pandas
+scipy
+tqdm
